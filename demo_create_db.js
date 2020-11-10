@@ -1,3 +1,6 @@
+// This file creates a database in the MySQL Server
+// Database name: mydbtest
+
 var mysql = require('mysql');
 
 var con = mysql.createConnection({
