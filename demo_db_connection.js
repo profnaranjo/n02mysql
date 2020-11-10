@@ -1,3 +1,5 @@
+// This file shows how to connect to a MySQL Database
+
 var mysql = require('mysql');
 
 var con = mysql.createConnection({
